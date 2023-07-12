@@ -1,0 +1,171 @@
+.h1{
+    margin-top: 20px;
+}
+.head{
+    height: 70px;
+    width: 100px;
+    background-color: black;
+    border-radius: 100px 100px 0px 0px;
+    margin-top: 50px;
+    background-color: aqua;
+}
+.android:hover:hover .head{
+    background-color: yellow;
+    animation: head 1s infinite;
+}
+@keyframes head{
+    50%{
+        transform: rotate(180deg);
+        transform-origin: center;
+    }
+    
+}
+.leye{
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 100px;
+    margin-top: -40px;
+    margin-left: 40px;
+}
+
+.reye{   
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 100px;
+    margin-top: -9px;
+    margin-left: -40px;
+}
+.larm{
+    height: 70px;
+    width: 20px;
+    background-color: white;
+    border-radius: 100px 100px 100px 100px;
+    margin-left: -135px;
+    margin-top: -110px;
+}
+    
+.rarm{
+    height: 70px;
+    width: 20px;
+    background-color: white;
+    border-radius: 100px 100px 100px 100px;
+    margin-right: -132px;
+    margin-top: -70px;
+}
+.body{
+    height: 110px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 0px 0px 25px 25px;
+    margin-top:35px;
+    z-index: 3;
+    position: relative;
+}
+.body:hover{
+    background-color: crimson;
+    animation:body 1s infinite;
+}
+@keyframes body{
+    /* 0%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    } */
+    /* 25%{
+        transform: rotate(120deg);
+        transform-origin: top;
+    } */
+    /* 50%{
+        transform: rotate(150deg);
+        transform-origin: top;
+    } */
+    0%{
+        transform: rotate(360deg);
+        transform-origin: top;
+    }
+    /* 100%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    } */
+
+}
+.lleg{
+    height: 110px;
+    width: 20px;
+    background-color: black;
+    border-radius: 100px 100px 100px 100px;
+    margin-left: -50px;
+    margin-right: -5px;
+}
+.rarm:hover{
+    background-color: rgb(27, 207, 72);
+    animation: rarm 1s infinite;
+}
+@keyframes rarm{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    }
+    /* 50%{
+        transform: rotate(20deg);
+        transform-origin: top;
+    } */
+    50%{
+        transform: rotate(-30deg);
+        transform-origin: top;
+    }
+}
+.larm:hover{
+    background-color: rgb(34, 11, 119);
+    animation: larm 1s infinite;
+}
+@keyframes larm{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    }
+    /* 50%{
+        transform: rotate(20deg);
+        transform-origin: top;
+    } */
+    50%{
+        transform: rotate(30deg);
+        transform-origin: top;
+    }
+}
+.lowerbody :hover{
+    background-color: blue;
+    animation: lowerbody 1s infinite;
+}
+/* @keyframes lowerbodey{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    }
+    50%{
+        transform: rotate(30deg,-30deg);
+        transform-origin: top;
+    }
+} */
+
+.rleg{
+    height: 110px;
+    width: 20px;
+    background-color: black;
+    border-radius: 100px 100px 100px 100px;
+    margin-right: -50px;
+    margin-top: -110px;
+    margin-left: -10px;
+}
+
+@keyframes lowerbody{
+    /* 0%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    } */
+    25%{
+        transform: rotate(20deg);
+        transform-origin: top;
+    }
+}
